@@ -1,7 +1,7 @@
 # Asynchronicity Demo
 
 ---
-permalink: <https://github.com/jmsherry/asynchronicity/index.html>
+permalink: <https://jmsherry.github.io/asynchronicity/index.html>
 ---
 
 JavaScript is asynchronous because we can't stop the program to wait for server responses, etc.
