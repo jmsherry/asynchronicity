@@ -13,7 +13,6 @@ api1Call() // executing this returns a promise, that's why we can .then()
   .then((result2) /* ends up here */ => {
     console.log("result2", result2);
     return api3Call(result2);
-    // .then(resp => resp.json()) <-- you can process before passing on...
   })
   .then((result3) => {
     console.log("result3", result3);

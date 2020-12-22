@@ -1,6 +1,7 @@
 import random from './../random.js';
 
 export default function fakeAPI1Call() {
+  console.log('fakeAPI1Call executes');
   // This (below) is how you 'Promisify' something that doesn't return a promise. Lots of modern libraries, like fetch, axios, etc. will return a promise, but if they don't then you construct one and return in from your function; this allows you to then anywhere. 
   const promise = new Promise(function(resolve, reject){
     setTimeout(() => {
@@ -12,3 +13,7 @@ export default function fakeAPI1Call() {
   
   return promise;
 }
+
+// (async function(){
+// await ssdfsd();
+// }());
